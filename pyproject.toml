@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gradio-experiment"
+version = "0.1.0"
+description = ""
+authors = ["Nikhil Pallamreddy"]
+readme = "README.md"
+packages = [{include = "gradio_experiment"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gradio = "^3.4"
+jc = "^1.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
